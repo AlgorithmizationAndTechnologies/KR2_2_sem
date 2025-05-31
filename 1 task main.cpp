@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Area.h"
-#include "Tests.cpp"
+#include "1 task Area.h"
+#include "1, 2 task Tests.cpp"
 #include <cmath>
 using namespace  std;
 int main()
