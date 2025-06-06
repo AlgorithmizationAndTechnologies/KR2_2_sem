@@ -1,17 +1,17 @@
-#include "1 task Area.h";
+#include "Area.h";
 #include <iostream>
 #include <cmath>
 double Radius_inside_figure(int n, double a)
 {
-    return a / (2 * tan(180.0 / n));
+    return a / (2 * (tan(3.14 / n)));
 }
 double Radius_outside_figure(int n, double a)
 {
-    return a / (2 * sin((3.14 * 180.0 / n) / 180.0));
+    return a / (2 * sin(3.14 / n));
 }
 double Area_figure(int n, double a)
 {
-    return (a * a * n) / (4 * tan((3.14 * 180.0 / n) / 180.0));
+    return (a * a * n) / (4 * tan(3.14/ n));
 }
 bool Chek_enter()
 {

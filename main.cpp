@@ -1,19 +1,18 @@
 #include <iostream>
-#include "1 task Area.h"
-#include "1, 2 task Tests.cpp"
+#include "Tests.cpp"
 #include <cmath>
 using namespace  std;
 int main()
 {
     cout << "Runing tests..." << endl;
-    Test();
+    Tests();
     cout << "All tests succsessfull" << endl << endl;
     double a;
     int n;
     cout << "Enter radius" << endl;
     cin >> a;
     if (Chek_enter() == false || a < 0) { return 0; }
-    cout << "Enter quality of angle 3 to 5" << endl; 
+    cout << "Enter quality of angle 3 to 5" << endl;
     cin >> n;
     if (Chek_enter() == false && n != 3 && n != 4 && n != 5 || n < 0) { return 0;}
     int choice;
